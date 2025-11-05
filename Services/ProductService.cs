@@ -31,7 +31,16 @@ namespace CoffeeManagement.Services
         {
             if (id <= 0)
                 throw new System.Exception("Invalid ID.");
-            _repo.Delete(id);
+
+            try
+            {
+                _repo.Delete(id);
+            }
+            catch (Npgsql.PostgresException ex) when (ex.SqlState == "23503")
+            {
+                // 23503 = foreign key violation
+                throw new System.Exception("Cannot delete product. There are orders linked to it.");
+            }
         }
     }
 }

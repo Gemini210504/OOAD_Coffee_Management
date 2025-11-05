@@ -1,62 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\programming\\C# Programming\\CoffeeManagement\\",
+  "WorkspaceRootPath": "D:\\programming\\C# Programming\\ooad\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\coffeemanagement\\forms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:forms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\forms\\frmreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:forms\\frmreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\coffeemanagement\\forms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:forms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\forms\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:forms\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\coffeemanagement\\forms\\frmproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:forms\\frmproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\coffeemanagement\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\coffeemanagement\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\coffeemanagement\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\coffeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\coffeemanagement\\forms\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:forms\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\forms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:forms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\coffeemanagement\\forms\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\forms\\frmdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:forms\\frmdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\forms\\frmreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:forms\\frmreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\forms\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:forms\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\forms\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:forms\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\coffeemanagement\\database\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:database\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\forms\\frmreport.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:forms\\frmreport.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\coffeemanagement\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\forms\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:forms\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\coffeemanagement\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\coffeemanagement\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\coffeemanagement\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\forms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:forms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\database\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:database\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|d:\\programming\\c# programming\\ooad\\forms\\frmorder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C15E0-137F-4319-8EF3-2DAEB3748013}|CoffeeManagement.csproj|solutionrelative:forms\\frmorder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,181 +94,246 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmProduct.Designer.cs",
-              "DocumentMoniker": "D:\\programming\\C# Programming\\CoffeeManagement\\Forms\\frmProduct.Designer.cs",
-              "RelativeDocumentMoniker": "Forms\\frmProduct.Designer.cs",
-              "ToolTip": "D:\\programming\\C# Programming\\CoffeeManagement\\Forms\\frmProduct.Designer.cs",
-              "RelativeToolTip": "Forms\\frmProduct.Designer.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAhwHkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "frmDashboard.Designer.cs",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Forms\\frmDashboard.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\frmDashboard.Designer.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Forms\\frmDashboard.Designer.cs",
+              "RelativeToolTip": "Forms\\frmDashboard.Designer.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwDYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T02:45:17.313Z",
+              "WhenOpened": "2025-11-05T05:47:35.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmProduct.cs",
-              "DocumentMoniker": "D:\\programming\\C# Programming\\CoffeeManagement\\Forms\\frmProduct.cs",
-              "RelativeDocumentMoniker": "Forms\\frmProduct.cs",
-              "ToolTip": "D:\\programming\\C# Programming\\CoffeeManagement\\Forms\\frmProduct.cs",
-              "RelativeToolTip": "Forms\\frmProduct.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAhwG4AAAAaAAAAAAAAAA==",
+              "Title": "frmOrder.cs",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Forms\\frmOrder.cs",
+              "RelativeDocumentMoniker": "Forms\\frmOrder.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Forms\\frmOrder.cs",
+              "RelativeToolTip": "Forms\\frmOrder.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAiwJ0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T02:42:29.843Z",
+              "WhenOpened": "2025-11-05T05:35:25.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\programming\\C# Programming\\CoffeeManagement\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "D:\\programming\\C# Programming\\CoffeeManagement\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Title": "frmProduct.cs",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Forms\\frmProduct.cs",
+              "RelativeDocumentMoniker": "Forms\\frmProduct.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Forms\\frmProduct.cs",
+              "RelativeToolTip": "Forms\\frmProduct.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAcwIIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T02:27:04.881Z",
+              "WhenOpened": "2025-11-05T05:22:33.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmProduct.cs [Design]",
-              "DocumentMoniker": "D:\\programming\\C# Programming\\CoffeeManagement\\Forms\\frmProduct.cs",
-              "RelativeDocumentMoniker": "Forms\\frmProduct.cs",
-              "ToolTip": "D:\\programming\\C# Programming\\CoffeeManagement\\Forms\\frmProduct.cs [Design]",
-              "RelativeToolTip": "Forms\\frmProduct.cs [Design]",
+              "Title": "frmReport.cs [Design]",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Forms\\frmReport.cs",
+              "RelativeDocumentMoniker": "Forms\\frmReport.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Forms\\frmReport.cs [Design]",
+              "RelativeToolTip": "Forms\\frmReport.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T02:35:51.684Z",
+              "WhenOpened": "2025-11-05T06:01:44.333Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "D:\\programming\\C# Programming\\CoffeeManagement\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
-              "ToolTip": "D:\\programming\\C# Programming\\CoffeeManagement\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "frmReport.cs",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Forms\\frmReport.cs",
+              "RelativeDocumentMoniker": "Forms\\frmReport.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Forms\\frmReport.cs",
+              "RelativeToolTip": "Forms\\frmReport.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAUwFUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T02:27:24.994Z",
+              "WhenOpened": "2025-11-05T06:06:14.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "D:\\programming\\C# Programming\\CoffeeManagement\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService.cs",
-              "ToolTip": "D:\\programming\\C# Programming\\CoffeeManagement\\Services\\ProductService.cs",
-              "RelativeToolTip": "Services\\ProductService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T02:27:44.292Z",
+              "WhenOpened": "2025-11-05T07:08:52.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\programming\\C# Programming\\CoffeeManagement\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\programming\\C# Programming\\CoffeeManagement\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAAAcAAAAAAAAAA==",
+              "Title": "frmDashboard.cs",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Forms\\frmDashboard.cs",
+              "RelativeDocumentMoniker": "Forms\\frmDashboard.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Forms\\frmDashboard.cs",
+              "RelativeToolTip": "Forms\\frmDashboard.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T02:31:37.954Z",
+              "WhenOpened": "2025-11-05T05:43:18.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "frmOrder.cs [Design]",
-              "DocumentMoniker": "D:\\programming\\C# Programming\\CoffeeManagement\\Forms\\frmOrder.cs",
-              "RelativeDocumentMoniker": "Forms\\frmOrder.cs",
-              "ToolTip": "D:\\programming\\C# Programming\\CoffeeManagement\\Forms\\frmOrder.cs [Design]",
-              "RelativeToolTip": "Forms\\frmOrder.cs [Design]",
+              "Title": "frmDashboard.cs [Design]",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Forms\\frmDashboard.cs",
+              "RelativeDocumentMoniker": "Forms\\frmDashboard.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Forms\\frmDashboard.cs [Design]",
+              "RelativeToolTip": "Forms\\frmDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T02:36:03.486Z",
+              "WhenOpened": "2025-11-05T05:27:59.57Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "frmDashboard.cs [Design]",
-              "DocumentMoniker": "D:\\programming\\C# Programming\\CoffeeManagement\\Forms\\frmDashboard.cs",
-              "RelativeDocumentMoniker": "Forms\\frmDashboard.cs",
-              "ToolTip": "D:\\programming\\C# Programming\\CoffeeManagement\\Forms\\frmDashboard.cs [Design]",
-              "RelativeToolTip": "Forms\\frmDashboard.cs [Design]",
+              "Title": "frmReport.Designer.cs",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Forms\\frmReport.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\frmReport.Designer.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Forms\\frmReport.Designer.cs",
+              "RelativeToolTip": "Forms\\frmReport.Designer.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAiwH0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T02:35:40.993Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DatabaseConnection.cs",
-              "DocumentMoniker": "D:\\programming\\C# Programming\\CoffeeManagement\\Database\\DatabaseConnection.cs",
-              "RelativeDocumentMoniker": "Database\\DatabaseConnection.cs",
-              "ToolTip": "D:\\programming\\C# Programming\\CoffeeManagement\\Database\\DatabaseConnection.cs",
-              "RelativeToolTip": "Database\\DatabaseConnection.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T02:26:37.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "D:\\programming\\C# Programming\\CoffeeManagement\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "Services\\OrderService.cs",
-              "ToolTip": "D:\\programming\\C# Programming\\CoffeeManagement\\Services\\OrderService.cs",
-              "RelativeToolTip": "Services\\OrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T02:27:53.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "D:\\programming\\C# Programming\\CoffeeManagement\\Repositories\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\OrderRepository.cs",
-              "ToolTip": "D:\\programming\\C# Programming\\CoffeeManagement\\Repositories\\OrderRepository.cs",
-              "RelativeToolTip": "Repositories\\OrderRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T02:27:33.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\programming\\C# Programming\\CoffeeManagement\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "D:\\programming\\C# Programming\\CoffeeManagement\\Models\\Order.cs",
-              "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T02:27:13.654Z",
+              "WhenOpened": "2025-11-05T06:08:58.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\programming\\C# Programming\\CoffeeManagement\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\programming\\C# Programming\\CoffeeManagement\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "Title": "frmProduct.cs [Design]",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Forms\\frmProduct.cs",
+              "RelativeDocumentMoniker": "Forms\\frmProduct.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Forms\\frmProduct.cs [Design]",
+              "RelativeToolTip": "Forms\\frmProduct.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T02:24:05.399Z",
+              "WhenOpened": "2025-11-05T05:22:31.64Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T05:33:46.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmOrder.cs [Design]",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Forms\\frmOrder.cs",
+              "RelativeDocumentMoniker": "Forms\\frmOrder.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Forms\\frmOrder.cs [Design]",
+              "RelativeToolTip": "Forms\\frmOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T05:30:48.767Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAADwv0EAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T06:22:15.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\OrderRepository.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvyUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T05:33:33.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T06:30:00.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIA+wCoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T06:16:12.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Services\\OrderService.cs",
+              "RelativeToolTip": "Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T05:34:12.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Database\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "Database\\DatabaseConnection.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Database\\DatabaseConnection.cs",
+              "RelativeToolTip": "Database\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T06:18:09.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmOrder.Designer.cs",
+              "DocumentMoniker": "D:\\programming\\C# Programming\\ooad\\Forms\\frmOrder.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\frmOrder.Designer.cs",
+              "ToolTip": "D:\\programming\\C# Programming\\ooad\\Forms\\frmOrder.Designer.cs",
+              "RelativeToolTip": "Forms\\frmOrder.Designer.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAArwMsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T05:35:31.937Z",
+              "EditorCaption": ""
             }
           ]
         }

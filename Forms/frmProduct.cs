@@ -23,6 +23,10 @@ namespace CoffeeManagement.Forms
         {
             dataGridProducts.DataSource = null;
             dataGridProducts.DataSource = service.GetAll();
+         
+
+            if (dataGridProducts.Columns["CreatedAt"] != null)
+                dataGridProducts.Columns["CreatedAt"].DefaultCellStyle.Format = "yyyy-MM-dd HH:mm";
         }
 
        
@@ -42,7 +46,7 @@ namespace CoffeeManagement.Forms
         {
             try
             {
-                Product p = new Product
+                Models.Product p = new Models.Product
                 {
                     Name = txtName.Text,
                     Category = txtCategory.Text,
@@ -65,7 +69,7 @@ namespace CoffeeManagement.Forms
             {
                 try
                 {
-                    Product p = new Product
+                    Models.Product p = new Models.Product
                     {
                         Id = (int)dataGridProducts.CurrentRow.Cells["Id"].Value,
                         Name = txtName.Text,
@@ -86,13 +90,22 @@ namespace CoffeeManagement.Forms
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
+
             if (dataGridProducts.CurrentRow != null)
             {
                 int id = (int)dataGridProducts.CurrentRow.Cells["Id"].Value;
-                service.Delete(id);
-                MessageBox.Show("🗑️ Product deleted!");
-                LoadProducts();
-                ClearFields();
+                try
+                {
+                    service.Delete(id);
+                    MessageBox.Show("🗑️ Product deleted!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LoadProducts();
+                    ClearFields();
+                }
+                catch (Exception ex)
+                {
+                    // Show friendly alert if deletion fails
+                    MessageBox.Show(ex.Message, "Cannot Delete", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
         }
 
@@ -103,12 +116,21 @@ namespace CoffeeManagement.Forms
                 txtName.Text = dataGridProducts.Rows[e.RowIndex].Cells["Name"].Value.ToString();
                 txtCategory.Text = dataGridProducts.Rows[e.RowIndex].Cells["Category"].Value.ToString();
                 txtPrice.Text = dataGridProducts.Rows[e.RowIndex].Cells["Price"].Value.ToString();
+                txtCreatedAt.Text = dataGridProducts.Rows[e.RowIndex].Cells["CreatedAt"].Value.ToString();
             }
         }
 
         private void btnClear_Click_1(object sender, EventArgs e)
         {
             ClearFields();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmDashboard dashboard = new frmDashboard();
+            dashboard.ShowDialog();
+            this.Close();
         }
     }
 }

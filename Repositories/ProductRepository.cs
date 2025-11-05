@@ -1,7 +1,9 @@
-﻿using CoffeeManagement.Models;
-using CoffeeManagement.Database;
+﻿using CoffeeManagement.Database;
+using CoffeeManagement.Models;
 using Npgsql;
+using System;
 using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace CoffeeManagement.Repositories
 {
@@ -13,7 +15,7 @@ namespace CoffeeManagement.Repositories
             using (var conn = DatabaseConnection.GetConnection())
             {
                 conn.Open();
-                string query = "SELECT * FROM products ORDER BY id";
+                string query = "SELECT id, name, category, price, created_at FROM products ORDER BY id";
                 using (var cmd = new NpgsqlCommand(query, conn))
                 using (var reader = cmd.ExecuteReader())
                 {
@@ -24,7 +26,8 @@ namespace CoffeeManagement.Repositories
                             Id = reader.GetInt32(0),
                             Name = reader.GetString(1),
                             Category = reader.GetString(2),
-                            Price = reader.GetDecimal(3)
+                            Price = reader.GetDecimal(3),
+                            CreatedAt = reader.GetDateTime(4) // <-- read created_at here
                         });
                     }
                 }
@@ -37,6 +40,8 @@ namespace CoffeeManagement.Repositories
             using (var conn = DatabaseConnection.GetConnection())
             {
                 conn.Open();
+
+                // Don't include created_at here, PostgreSQL will set it automatically
                 string query = "INSERT INTO products (name, category, price) VALUES (@n, @c, @p)";
                 using (var cmd = new NpgsqlCommand(query, conn))
                 {
@@ -70,6 +75,18 @@ namespace CoffeeManagement.Repositories
             using (var conn = DatabaseConnection.GetConnection())
             {
                 conn.Open();
+
+                // Check if any orders exist for this product
+                string checkQuery = "SELECT COUNT(*) FROM orders WHERE product_id=@id";
+                using (var checkCmd = new NpgsqlCommand(checkQuery, conn))
+                {
+                    checkCmd.Parameters.AddWithValue("@id", id);
+                    int count = Convert.ToInt32(checkCmd.ExecuteScalar());
+                    if (count > 0)
+                        throw new Exception("Cannot delete product. There are orders linked to it.");
+                }
+
+                // Delete product if no orders
                 string query = "DELETE FROM products WHERE id=@id";
                 using (var cmd = new NpgsqlCommand(query, conn))
                 {
