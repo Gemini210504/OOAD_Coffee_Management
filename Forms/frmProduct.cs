@@ -1,0 +1,114 @@
+﻿using CoffeeManagement.Models;
+using CoffeeManagement.Services;
+using System;
+using System.Windows.Forms;
+
+namespace CoffeeManagement.Forms
+{
+    public partial class frmProduct : Form
+    {
+        private readonly ProductService service = new ProductService();
+
+        public frmProduct()
+        {
+            InitializeComponent();
+        }
+
+        private void frmProduct_Load(object sender, EventArgs e)
+        {
+            LoadProducts();
+        }
+
+        private void LoadProducts()
+        {
+            dataGridProducts.DataSource = null;
+            dataGridProducts.DataSource = service.GetAll();
+        }
+
+       
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            ClearFields();
+        }
+
+        private void ClearFields()
+        {
+            txtName.Clear();
+            txtCategory.Clear();
+            txtPrice.Clear();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Product p = new Product
+                {
+                    Name = txtName.Text,
+                    Category = txtCategory.Text,
+                    Price = decimal.Parse(txtPrice.Text)
+                };
+                service.Add(p);
+                MessageBox.Show("✅ Product added!");
+                LoadProducts();
+                ClearFields();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            if (dataGridProducts.CurrentRow != null)
+            {
+                try
+                {
+                    Product p = new Product
+                    {
+                        Id = (int)dataGridProducts.CurrentRow.Cells["Id"].Value,
+                        Name = txtName.Text,
+                        Category = txtCategory.Text,
+                        Price = decimal.Parse(txtPrice.Text)
+                    };
+                    service.Update(p);
+                    MessageBox.Show("✅ Product updated!");
+                    LoadProducts();
+                    ClearFields();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (dataGridProducts.CurrentRow != null)
+            {
+                int id = (int)dataGridProducts.CurrentRow.Cells["Id"].Value;
+                service.Delete(id);
+                MessageBox.Show("🗑️ Product deleted!");
+                LoadProducts();
+                ClearFields();
+            }
+        }
+
+        private void dataGridProducts_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                txtName.Text = dataGridProducts.Rows[e.RowIndex].Cells["Name"].Value.ToString();
+                txtCategory.Text = dataGridProducts.Rows[e.RowIndex].Cells["Category"].Value.ToString();
+                txtPrice.Text = dataGridProducts.Rows[e.RowIndex].Cells["Price"].Value.ToString();
+            }
+        }
+
+        private void btnClear_Click_1(object sender, EventArgs e)
+        {
+            ClearFields();
+        }
+    }
+}
